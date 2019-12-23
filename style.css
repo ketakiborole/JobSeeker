@@ -1,0 +1,74 @@
+.container{
+    background-color: #C7D8E8;
+    height: 700px !important;
+}
+.center-card{
+     align-items: center;
+     margin-left: 13%;
+     margin-top: 6%;
+    background-color: #F4F4F4 !important;
+
+}
+.card{
+    position: fixed;
+}
+.card-title{
+    color:	#1571FF !important;
+    margin-top:15%;
+}
+.next-step{
+    background-color: 	#0B77FE !important;
+    margin: 15% 0 10% 28%;
+    padding: 4% 10% 4% 10% !important;
+    font-size: larger !important;
+}
+img{
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    
+    
+}
+.job-img{
+    margin: 10% 10% 1% 10%;
+}
+.recruit-job{
+    margin:10% 1% 1% 11%;
+}
+.seeker{
+    margin: 1% 0 10% 16%;
+    color:rgb(173, 170, 170);
+}
+.recruit{
+    margin: 1% 0 10% 22%;
+    color:rgb(173, 170, 170);
+}
+.next{
+    align-items: center;
+
+}
+.active{
+    border:5px solid #1571FF ; 
+    border-radius: 50%;
+    
+}
+.circle1{
+font-size: 20px !important;
+color:#1571FF !important;
+background-color:white;
+margin-left: -14% !important;
+    position: relative;
+    
+}
+.job{
+    width: 130px;
+    height: 130px;
+}
+.circle2{
+    font-size: 20px !important;
+    color:#1571FF !important;
+    background-color:white;
+    margin-left: -4% !important;
+    position: relative;
+    display: block;
+}

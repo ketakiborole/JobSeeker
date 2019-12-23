@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+<br>
+
+        <div class="card w-75 center-card">
+            <div class="card-body">
+                <h2 class="card-title"><b>WHAT ROLE DO YOU HAVE?</b></h2>
+                <div id="mydiv">
+                  <img  class="job active job-img"src="job seeker.png"> <i class="fa fa-check-circle circle1" aria-hidden="true"></i></span>
+                  <img class=" job recruit-job"src="recruiter.png"><i class="fa fa-check-circle circle2" aria-hidden="true"></i></span><br>
+                    <span class="seeker"><b>JOB SEEKER</b></span><span class="recruit"><b>RECRUITER</b></span><br>
+                </div>
+                <div class="next">
+                    <span class="badge badge-pill badge-primary next-step">Next Step</span>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <script>
+        // Add active class to the current button (highlight it)
+        var header = document.getElementById("mydiv");
+        var btns = header.getElementsByClassName("job");
+        for (var i = 0; i < btns.length; i++) {
+          btns[i].addEventListener("click", function() {
+          var current = document.getElementsByClassName("active");
+          current[0].className = current[0].className.replace(" active", "");
+          this.className += " active";
+          
+          });
+        }
+       
+    
+        </script>
+        
+</body>
+
+</html>
